@@ -1,0 +1,29 @@
+.home-main {
+    width: 500px;
+    margin: 20px auto;
+}
+
+.contact-us {
+    width: 90vw;
+    min-height: 200px;
+    margin: 40px auto;
+    padding: 20px;
+    border: var(--border);
+    border-radius: var(--big-radius);
+    overflow: hidden;
+}
+
+.contact-us .form {
+    width: 500px;
+    margin: auto auto;
+}
+
+@media (max-width: 600px) {
+    .home-main {
+        width: 80vw;
+    }
+
+    .contact-us .form {
+        width: 100%;
+    }
+}

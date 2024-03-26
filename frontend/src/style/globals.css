@@ -1,0 +1,116 @@
+/* variable css */
+:root {
+    /* pastel colors */
+    --bg-dirty: #fef4f4; /* Light gray background */
+    --scroll: #e3acac; /* Light gray scrollbar */
+
+    --background: #FFFFFF; /* White background */
+    --text: #333333; /* Dark gray text */
+    --text-secondary: #666666; /* Slightly lighter gray for secondary text */
+    --primary: #ebd4d7; /* Sky blue primary color */
+    --secondary: #f1bebe; /* Light blue secondary color */
+    --secondary-light: #fef4f4; /* Very light blue for contrast */
+    --secondary-dark: #a4727f; /* Darker blue for variation */
+    --grey: #807d7d; /* Standard gray */
+    --accent: #7F5A83; /* Accent color, a shade of purple */
+    --error: #E74C3C; /* Red for errors */
+    --success: #27AE60; /* Green for success */
+    --yellow: #F1C40F; /* Soft yellow */
+
+    /* other variables */
+    --big-radius: 24px;
+    --small-radius: 18px;
+    --v-small-radius: 10px;
+    --border: 2px solid var(--secondary);
+}
+
+/* Reset all web parameters */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+    user-select: none;
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+img,
+input,
+button,
+.icon {
+    display: block;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+/* common properties */
+.page {
+    padding-block: 100px;
+}
+
+.flex {
+    display: flex !important;
+}
+
+.gap-5 {
+    gap: 5px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.title {
+    font-size: 36px;
+}
+
+.txt-ctr {
+    text-align: center;
+}
+
+.cur {
+    cursor: pointer !important;
+}
+
+.subtitle {
+    font-size: 16px;
+    margin-block: 10px;
+}
+
+.my-btn {
+    width: fit-content;
+    margin: 40px auto;
+    padding: 15px 40px;
+    color: var(--text);
+    font-size: 18px;
+    font-weight: 600;
+    background-color: var(--secondary);
+    border: none;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+
+.my-btn:hover {
+    scale: 1.05;
+}
+
+.hidden {
+    display: none;
+}
+
+button:disabled,
+button[disabled] {
+    cursor: not-allowed;
+}
